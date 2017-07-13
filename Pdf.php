@@ -280,7 +280,7 @@ class Pdf extends Component
     {
         $this->_mpdf = new mPDF(
             $this->mode,
-            $this->format,
+            $this->format .'-'. $this->orientation,
             $this->defaultFontSize,
             $this->defaultFont,
             $this->marginLeft,
@@ -288,8 +288,7 @@ class Pdf extends Component
             $this->marginTop,
             $this->marginBottom,
             $this->marginHeader,
-            $this->marginFooter,
-            $this->orientation
+            $this->marginFooter
         );
     }
 
