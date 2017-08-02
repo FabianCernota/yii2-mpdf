@@ -26,7 +26,7 @@
         }
     ],
     "require": {
-        "mpdf/mpdf": "<7.0"
+        "mpdf/mpdf": "dev-master"
     },
     "autoload": {
         "psr-4": {
