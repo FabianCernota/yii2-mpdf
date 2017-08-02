@@ -1,6 +1,6 @@
 {
-    "name": "zolex/yii2-mpdf",
-    "description": "A fixed version of kartik-v/yii2-mpdf which allows portait and landscape selection",
+    "name": "FabianCernota/yii2-mpdf",
+    "description": "A fixed version of zolex/yii2-mpdf which allows portait and landscape selection",
     "keywords": [
         "yii2",
         "extension",
@@ -10,7 +10,7 @@
         "html",
         "component"
     ],
-    "homepage": "https://github.com/zolex/yii2-mpdf",
+    "homepage": "https://github.com/FabianCernota/yii2-mpdf",
     "type": "yii2-extension",
     "license": "BSD 3-Clause",
     "authors": [
@@ -23,7 +23,12 @@
             "name": "Andreas Linden",
             "email": "zlx@gmx.de",
             "homepage": "http://www.3886records.de/"
-        }
+        },
+	{ 
+	    "name": "Fabian Cernota",
+	    "email": "fabian@westwoodlabs.de"
+	    "homepage": "http://westwoodlabs.de"
+	}
     ],
     "require": {
         "mpdf/mpdf": "dev-master"
