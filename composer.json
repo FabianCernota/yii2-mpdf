@@ -1,6 +1,6 @@
 {
-    "name": "zolex/yii2-mpdf",
-    "description": "A fixed version of kartik-v/yii2-mpdf which allows portait and landscape selection",
+    "name": "FabianCernota/yii2-mpdf",
+    "description": "A fixed version of zolex/yii2-mpdf which allows portait and landscape selection and supports php7.1",
     "keywords": [
         "yii2",
         "extension",
@@ -23,6 +23,11 @@
             "name": "Andreas Linden",
             "email": "zlx@gmx.de",
             "homepage": "http://www.3886records.de/"
+        },
+	{ 	
+	    "name": "Fabian Cernota",
+	    "email": "fabian@westwoodlabs.de",
+	    "homepage": "http://westwoodlabs.de"
         }
     ],
     "require": {
